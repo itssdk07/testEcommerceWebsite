@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="test.CheckOutTest">
+        <methods>
+          <include name="testCancelCheckOut"/>
+          <include name="testCompleteMessage"/>
+          <include name="testEmptyLastName"/>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="testAllEmpty"/>
+          <include name="testEmptyPostalCode"/>
+          <include name="loadapp"/>
+          <include name="takescreenshotForFailures"/>
+          <include name="testEmptyFirstName"/>
+        </methods>
+      </class> <!-- test.CheckOutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
