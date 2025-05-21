@@ -41,6 +41,8 @@ public class LoginPage extends PageBase {
 	return	getText(errormessage);
 	}
 	
+	
+	
 //	 public String getCurrentURL() {
 //		 return driver.getCurrentUrl();
  //  } ---------Added in TestBase class directly---------------

@@ -1,8 +1,13 @@
 package test;
 import java.io.File;
-
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +20,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
-
+import org.apache.poi.ss.usermodel.Cell;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.LoginPage;
 import pages.PageBase;
@@ -38,6 +43,49 @@ public class TestBase {
 	public void navigateBack() {
 		driver.navigate().back();
 	}
+	
+	public void pullIntoExcel(String path, int rowIndex, int column, String input) throws IOException {
+		FileInputStream file = new FileInputStream(path);
+		Workbook workbook = new XSSFWorkbook(file);
+		Sheet sheet = workbook.getSheetAt(0);
+		Row row = sheet.getRow(rowIndex);
+        if (row == null) {
+            row = sheet.createRow(rowIndex);
+        }
+
+        Cell cell = row.getCell(column);
+        if (cell == null) {
+            cell = row.createCell(column);
+        }
+        
+        cell.setCellValue(input);
+        file.close();
+        
+        FileOutputStream outFile = new FileOutputStream(new File(path));
+        workbook.write(outFile);
+        outFile.close();
+        workbook.close();
+
+        System.out.println("updated successfully!");
+
+	}
+	
+	public void updateStatusIntoExcel(int result, int rowNo) throws IOException {
+		if (result == 1) {
+			pullIntoExcel("C:\\Users\\HP\\eclipse-workspace\\testng\\ecommerce\\src\\test\\resources\\TestCases.xlsx", rowNo, 9, "Passed");
+		}	
+		
+		if (result == 2) {
+			pullIntoExcel("C:\\Users\\HP\\eclipse-workspace\\testng\\ecommerce\\src\\test\\resources\\TestCases.xlsx", rowNo,9,  "Failed");
+		}	
+	}
+	
+	public void updateCommentIntoExcel(String message, int rowNo) throws IOException {
+		pullIntoExcel("C:\\Users\\HP\\eclipse-workspace\\testng\\ecommerce\\src\\test\\resources\\TestCases.xlsx", rowNo, 11, message);
+	}
+	
+	
+	
 	
 	public void reload() {
 		driver.navigate().refresh();
@@ -79,6 +127,7 @@ public class TestBase {
 		
 	
 	@AfterMethod
+	
 	
 	public void takescreenshotForFailures(ITestResult testResult) {
 		if(ITestResult.FAILURE == testResult.getStatus()) {

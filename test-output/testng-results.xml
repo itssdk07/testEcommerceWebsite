@@ -2,388 +2,388 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-18T10:12:44 IST" name="Suite" finished-at="2025-05-18T10:13:32 IST" duration-ms="47953">
+  <suite started-at="2025-05-21T10:09:56 IST" name="Suite" finished-at="2025-05-21T10:10:21 IST" duration-ms="24594">
     <groups>
     </groups>
-    <test started-at="2025-05-18T10:12:44 IST" name="Test" finished-at="2025-05-18T10:13:32 IST" duration-ms="47953">
+    <test started-at="2025-05-21T10:09:56 IST" name="Test" finished-at="2025-05-21T10:10:21 IST" duration-ms="24594">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:44 IST" name="setup" finished-at="2025-05-18T10:12:49 IST" duration-ms="5519" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:09:56 IST" name="setup" finished-at="2025-05-21T10:09:58 IST" duration-ms="1927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:49 IST" name="loadapp" finished-at="2025-05-18T10:12:51 IST" duration-ms="1327" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:09:58 IST" name="loadapp" finished-at="2025-05-21T10:09:59 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="LoginEmptyUser()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:51 IST" name="LoginEmptyUser" finished-at="2025-05-18T10:12:51 IST" duration-ms="581" status="PASS">
+        <test-method signature="LoginEmptyUser()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:09:59 IST" name="LoginEmptyUser" finished-at="2025-05-21T10:10:00 IST" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginEmptyUser -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:51 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:51 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:00 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginEmptyUser status=SUCCESS method=LoginTest.LoginEmptyUser()[pri:0, instance:test.LoginTest@757acd7b] output={null}]]]>
+                <![CDATA[[TestResult name=LoginEmptyUser status=SUCCESS method=LoginTest.LoginEmptyUser()[pri:0, instance:test.LoginTest@53aad5d5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:51 IST" name="loadapp" finished-at="2025-05-18T10:12:52 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="loadapp" finished-at="2025-05-21T10:10:00 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="LoginInvalidTest()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:52 IST" name="LoginInvalidTest" finished-at="2025-05-18T10:12:52 IST" duration-ms="830" status="PASS">
+        <test-method signature="LoginInvalidTest()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="LoginInvalidTest" finished-at="2025-05-21T10:10:00 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginInvalidTest -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:52 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:00 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginInvalidTest status=SUCCESS method=LoginTest.LoginInvalidTest()[pri:0, instance:test.LoginTest@757acd7b] output={null}]]]>
+                <![CDATA[[TestResult name=LoginInvalidTest status=SUCCESS method=LoginTest.LoginInvalidTest()[pri:0, instance:test.LoginTest@53aad5d5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:52 IST" name="loadapp" finished-at="2025-05-18T10:12:53 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="loadapp" finished-at="2025-05-21T10:10:00 IST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="LoginLockedoutUser()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:53 IST" name="LoginLockedoutUser" finished-at="2025-05-18T10:12:53 IST" duration-ms="872" status="PASS">
+        <test-method signature="LoginLockedoutUser()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="LoginLockedoutUser" finished-at="2025-05-21T10:10:00 IST" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginLockedoutUser -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:53 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:00 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginLockedoutUser status=SUCCESS method=LoginTest.LoginLockedoutUser()[pri:0, instance:test.LoginTest@757acd7b] output={null}]]]>
+                <![CDATA[[TestResult name=LoginLockedoutUser status=SUCCESS method=LoginTest.LoginLockedoutUser()[pri:0, instance:test.LoginTest@53aad5d5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:53 IST" name="loadapp" finished-at="2025-05-18T10:12:54 IST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="loadapp" finished-at="2025-05-21T10:10:00 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="LoginValidTest()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:54 IST" name="LoginValidTest" finished-at="2025-05-18T10:12:54 IST" duration-ms="845" status="PASS">
+        <test-method signature="LoginValidTest()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:00 IST" name="LoginValidTest" finished-at="2025-05-21T10:10:01 IST" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginValidTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:54 IST" name="quit" finished-at="2025-05-18T10:12:55 IST" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@757acd7b]" started-at="2025-05-18T10:12:54 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:01 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:01 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginValidTest status=SUCCESS method=LoginTest.LoginValidTest()[pri:0, instance:test.LoginTest@757acd7b] output={null}]]]>
+                <![CDATA[[TestResult name=LoginValidTest status=SUCCESS method=LoginTest.LoginValidTest()[pri:0, instance:test.LoginTest@53aad5d5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.LoginTest@53aad5d5]" started-at="2025-05-21T10:10:01 IST" name="quit" finished-at="2025-05-21T10:10:01 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- test.LoginTest -->
       <class name="test.CheckOutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:11 IST" name="setup" finished-at="2025-05-18T10:13:12 IST" duration-ms="1379" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:10 IST" name="setup" finished-at="2025-05-21T10:10:11 IST" duration-ms="1103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:12 IST" name="loadapp" finished-at="2025-05-18T10:13:15 IST" duration-ms="2637" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:11 IST" name="loadapp" finished-at="2025-05-21T10:10:12 IST" duration-ms="961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="testAllEmpty()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:15 IST" name="testAllEmpty" finished-at="2025-05-18T10:13:17 IST" duration-ms="2018" status="PASS">
+        <test-method signature="testAllEmpty()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:12 IST" name="testAllEmpty" finished-at="2025-05-21T10:10:13 IST" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllEmpty -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:17 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:13 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAllEmpty status=SUCCESS method=CheckOutTest.testAllEmpty()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
+                <![CDATA[[TestResult name=testAllEmpty status=SUCCESS method=CheckOutTest.testAllEmpty()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testCancelCheckOut()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:17 IST" name="testCancelCheckOut" finished-at="2025-05-18T10:13:18 IST" duration-ms="1666" status="PASS">
+        <test-method signature="testCancelCheckOut()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:13 IST" name="testCancelCheckOut" finished-at="2025-05-21T10:10:14 IST" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCancelCheckOut -->
-        <test-method signature="testCompleteMessage()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:18 IST" name="testCompleteMessage" finished-at="2025-05-18T10:13:20 IST" duration-ms="2250" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:14 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:14 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelCheckOut status=SUCCESS method=CheckOutTest.testCancelCheckOut()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotForFailures -->
+        <test-method signature="testCompleteMessage()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:14 IST" name="testCompleteMessage" finished-at="2025-05-21T10:10:15 IST" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompleteMessage -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:18 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:15 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:15 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCancelCheckOut status=SUCCESS method=CheckOutTest.testCancelCheckOut()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
+                <![CDATA[[TestResult name=testCompleteMessage status=SUCCESS method=CheckOutTest.testCompleteMessage()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:20 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:20 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCompleteMessage status=SUCCESS method=CheckOutTest.testCompleteMessage()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testEmptyFirstName()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:20 IST" name="testEmptyFirstName" finished-at="2025-05-18T10:13:23 IST" duration-ms="2224" status="PASS">
+        <test-method signature="testEmptyFirstName()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:15 IST" name="testEmptyFirstName" finished-at="2025-05-21T10:10:16 IST" duration-ms="853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyFirstName -->
-        <test-method signature="testEmptyLastName()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:23 IST" name="testEmptyLastName" finished-at="2025-05-18T10:13:25 IST" duration-ms="1992" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:16 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyFirstName status=SUCCESS method=CheckOutTest.testEmptyFirstName()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotForFailures -->
+        <test-method signature="testEmptyLastName()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:16 IST" name="testEmptyLastName" finished-at="2025-05-21T10:10:16 IST" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyLastName -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:23 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:16 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEmptyFirstName status=SUCCESS method=CheckOutTest.testEmptyFirstName()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
+                <![CDATA[[TestResult name=testEmptyLastName status=SUCCESS method=CheckOutTest.testEmptyLastName()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testEmptyPostalCode()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:25 IST" name="testEmptyPostalCode" finished-at="2025-05-18T10:13:27 IST" duration-ms="2351" status="PASS">
+        <test-method signature="testEmptyPostalCode()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:16 IST" name="testEmptyPostalCode" finished-at="2025-05-21T10:10:17 IST" duration-ms="843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyPostalCode -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:25 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:17 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:17 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEmptyLastName status=SUCCESS method=CheckOutTest.testEmptyLastName()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
+                <![CDATA[[TestResult name=testEmptyPostalCode status=SUCCESS method=CheckOutTest.testEmptyPostalCode()[pri:0, instance:test.CheckOutTest@865dd6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:27 IST" name="quit" finished-at="2025-05-18T10:13:27 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.CheckOutTest@865dd6]" started-at="2025-05-21T10:10:17 IST" name="quit" finished-at="2025-05-21T10:10:18 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CheckOutTest@44a7bfbc]" started-at="2025-05-18T10:13:27 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:27 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testEmptyPostalCode status=SUCCESS method=CheckOutTest.testEmptyPostalCode()[pri:0, instance:test.CheckOutTest@44a7bfbc] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takescreenshotForFailures -->
       </class> <!-- test.CheckOutTest -->
       <class name="test.LogOutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.LogOutTest@4ef37659]" started-at="2025-05-18T10:13:27 IST" name="setup" finished-at="2025-05-18T10:13:29 IST" duration-ms="1348" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LogOutTest@4da4253]" started-at="2025-05-21T10:10:18 IST" name="setup" finished-at="2025-05-21T10:10:19 IST" duration-ms="1079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LogOutTest@4ef37659]" started-at="2025-05-18T10:13:29 IST" name="loadapp" finished-at="2025-05-18T10:13:30 IST" duration-ms="1697" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.LogOutTest@4da4253]" started-at="2025-05-21T10:10:19 IST" name="loadapp" finished-at="2025-05-21T10:10:20 IST" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="testLogOut()[pri:0, instance:test.LogOutTest@4ef37659]" started-at="2025-05-18T10:13:30 IST" name="testLogOut" finished-at="2025-05-18T10:13:31 IST" duration-ms="1092" status="PASS">
+        <test-method signature="testLogOut()[pri:0, instance:test.LogOutTest@4da4253]" started-at="2025-05-21T10:10:20 IST" name="testLogOut" finished-at="2025-05-21T10:10:20 IST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.LogOutTest@4ef37659]" started-at="2025-05-18T10:13:31 IST" name="quit" finished-at="2025-05-18T10:13:32 IST" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LogOutTest@4ef37659]" started-at="2025-05-18T10:13:31 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.LogOutTest@4da4253]" started-at="2025-05-21T10:10:20 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLogOut status=SUCCESS method=LogOutTest.testLogOut()[pri:0, instance:test.LogOutTest@4ef37659] output={null}]]]>
+                <![CDATA[[TestResult name=testLogOut status=SUCCESS method=LogOutTest.testLogOut()[pri:0, instance:test.LogOutTest@4da4253] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.LogOutTest@4da4253]" started-at="2025-05-21T10:10:20 IST" name="quit" finished-at="2025-05-21T10:10:21 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- test.LogOutTest -->
       <class name="test.CartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:01 IST" name="setup" finished-at="2025-05-18T10:13:03 IST" duration-ms="1572" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:05 IST" name="setup" finished-at="2025-05-21T10:10:06 IST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:03 IST" name="loadapp" finished-at="2025-05-18T10:13:04 IST" duration-ms="1739" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:06 IST" name="loadapp" finished-at="2025-05-21T10:10:07 IST" duration-ms="1014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="checkItemsAddedCart()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:04 IST" name="checkItemsAddedCart" finished-at="2025-05-18T10:13:06 IST" duration-ms="1611" status="PASS">
+        <test-method signature="checkItemsAddedCart()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:07 IST" name="checkItemsAddedCart" finished-at="2025-05-21T10:10:08 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkItemsAddedCart -->
-        <test-method signature="isItemBackPackRemoved()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:06 IST" name="isItemBackPackRemoved" finished-at="2025-05-18T10:13:08 IST" duration-ms="2392" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:08 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkItemsAddedCart status=SUCCESS method=CartTest.checkItemsAddedCart()[pri:0, instance:test.CartTest@6a6afff2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotForFailures -->
+        <test-method signature="isItemBackPackRemoved()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:08 IST" name="isItemBackPackRemoved" finished-at="2025-05-21T10:10:09 IST" duration-ms="1541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isItemBackPackRemoved -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:06 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:09 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkItemsAddedCart status=SUCCESS method=CartTest.checkItemsAddedCart()[pri:0, instance:test.CartTest@524d6d96] output={null}]]]>
+                <![CDATA[[TestResult name=isItemBackPackRemoved status=SUCCESS method=CartTest.isItemBackPackRemoved()[pri:0, instance:test.CartTest@6a6afff2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:08 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:08 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=isItemBackPackRemoved status=SUCCESS method=CartTest.isItemBackPackRemoved()[pri:0, instance:test.CartTest@524d6d96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testCheckOutbtn()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:08 IST" name="testCheckOutbtn" finished-at="2025-05-18T10:13:09 IST" duration-ms="399" status="PASS">
+        <test-method signature="testCheckOutbtn()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:09 IST" name="testCheckOutbtn" finished-at="2025-05-21T10:10:09 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckOutbtn -->
-        <test-method signature="testContinueShopping()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:09 IST" name="testContinueShopping" finished-at="2025-05-18T10:13:10 IST" duration-ms="1558" status="PASS">
+        <test-method signature="testContinueShopping()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:09 IST" name="testContinueShopping" finished-at="2025-05-21T10:10:10 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContinueShopping -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:09 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:09 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCheckOutbtn status=SUCCESS method=CartTest.testCheckOutbtn()[pri:0, instance:test.CartTest@524d6d96] output={null}]]]>
+                <![CDATA[[TestResult name=testCheckOutbtn status=SUCCESS method=CartTest.testCheckOutbtn()[pri:0, instance:test.CartTest@6a6afff2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:10 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:10 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testContinueShopping status=SUCCESS method=CartTest.testContinueShopping()[pri:0, instance:test.CartTest@524d6d96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.CartTest@524d6d96]" started-at="2025-05-18T10:13:10 IST" name="quit" finished-at="2025-05-18T10:13:11 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:10 IST" name="quit" finished-at="2025-05-21T10:10:10 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.CartTest@6a6afff2]" started-at="2025-05-21T10:10:10 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContinueShopping status=SUCCESS method=CartTest.testContinueShopping()[pri:0, instance:test.CartTest@6a6afff2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotForFailures -->
       </class> <!-- test.CartTest -->
       <class name="test.InventoryTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:55 IST" name="setup" finished-at="2025-05-18T10:12:56 IST" duration-ms="1713" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:01 IST" name="setup" finished-at="2025-05-21T10:10:02 IST" duration-ms="1025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:56 IST" name="loadapp" finished-at="2025-05-18T10:12:58 IST" duration-ms="1925" status="PASS">
+        <test-method is-config="true" signature="loadapp()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:02 IST" name="loadapp" finished-at="2025-05-21T10:10:03 IST" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadapp -->
-        <test-method signature="testAddItemToCart()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:58 IST" name="testAddItemToCart" finished-at="2025-05-18T10:12:59 IST" duration-ms="957" status="PASS">
+        <test-method signature="testAddItemToCart()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:03 IST" name="testAddItemToCart" finished-at="2025-05-21T10:10:04 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddItemToCart -->
-        <test-method signature="testExpectedNoOfItems()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:59 IST" name="testExpectedNoOfItems" finished-at="2025-05-18T10:12:59 IST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddItemToCart status=SUCCESS method=InventoryTest.testAddItemToCart()[pri:0, instance:test.InventoryTest@482bce4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotForFailures -->
+        <test-method signature="testExpectedNoOfItems()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="testExpectedNoOfItems" finished-at="2025-05-21T10:10:04 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExpectedNoOfItems -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:59 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddItemToCart status=SUCCESS method=InventoryTest.testAddItemToCart()[pri:0, instance:test.InventoryTest@61d6015a] output={null}]]]>
+                <![CDATA[[TestResult name=testExpectedNoOfItems status=SUCCESS method=InventoryTest.testExpectedNoOfItems()[pri:0, instance:test.InventoryTest@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testOpenCart()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:59 IST" name="testOpenCart" finished-at="2025-05-18T10:12:59 IST" duration-ms="184" status="PASS">
+        <test-method signature="testOpenCart()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="testOpenCart" finished-at="2025-05-21T10:10:04 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOpenCart -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:12:59 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:12:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testExpectedNoOfItems status=SUCCESS method=InventoryTest.testExpectedNoOfItems()[pri:0, instance:test.InventoryTest@61d6015a] output={null}]]]>
+                <![CDATA[[TestResult name=testOpenCart status=SUCCESS method=InventoryTest.testOpenCart()[pri:0, instance:test.InventoryTest@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testOpenProductDetails()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:00 IST" name="testOpenProductDetails" finished-at="2025-05-18T10:13:00 IST" duration-ms="263" status="PASS">
+        <test-method signature="testOpenProductDetails()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="testOpenProductDetails" finished-at="2025-05-21T10:10:04 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOpenProductDetails -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:00 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testOpenCart status=SUCCESS method=InventoryTest.testOpenCart()[pri:0, instance:test.InventoryTest@61d6015a] output={null}]]]>
+                <![CDATA[[TestResult name=testOpenProductDetails status=SUCCESS method=InventoryTest.testOpenProductDetails()[pri:0, instance:test.InventoryTest@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:00 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:00 IST" duration-ms="14" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOpenProductDetails status=SUCCESS method=InventoryTest.testOpenProductDetails()[pri:0, instance:test.InventoryTest@61d6015a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takescreenshotForFailures -->
-        <test-method signature="testRemoveItemCart()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:00 IST" name="testRemoveItemCart" finished-at="2025-05-18T10:13:01 IST" duration-ms="846" status="PASS">
+        <test-method signature="testRemoveItemCart()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:04 IST" name="testRemoveItemCart" finished-at="2025-05-21T10:10:05 IST" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveItemCart -->
-        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:01 IST" name="takescreenshotForFailures" finished-at="2025-05-18T10:13:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="takescreenshotForFailures(org.testng.ITestResult)[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:05 IST" name="takescreenshotForFailures" finished-at="2025-05-21T10:10:05 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRemoveItemCart status=SUCCESS method=InventoryTest.testRemoveItemCart()[pri:0, instance:test.InventoryTest@61d6015a] output={null}]]]>
+                <![CDATA[[TestResult name=testRemoveItemCart status=SUCCESS method=InventoryTest.testRemoveItemCart()[pri:0, instance:test.InventoryTest@482bce4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takescreenshotForFailures -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.InventoryTest@61d6015a]" started-at="2025-05-18T10:13:01 IST" name="quit" finished-at="2025-05-18T10:13:01 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.InventoryTest@482bce4f]" started-at="2025-05-21T10:10:05 IST" name="quit" finished-at="2025-05-21T10:10:05 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
