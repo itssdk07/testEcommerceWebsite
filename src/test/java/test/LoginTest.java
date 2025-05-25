@@ -49,9 +49,11 @@ public class LoginTest extends TestBase {
 			
 			status = ITestResult.SUCCESS;
 			softassert.assertAll();
+			System.out.println("Log in with Invalid credentials has been passed");
 			}
 		catch (AssertionError | Exception e) {
 			status = ITestResult.FAILURE;
+			System.out.println("Log in with Invalid credentials has been Failed");
 			throw e;
 		}	
 		finally {updateStatusIntoExcel(status, 7);}
